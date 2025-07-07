@@ -1,13 +1,14 @@
-<<<<<<< HEAD
-tugas 1
-menampilkan hasil *php spark*
-![image](https://github.com/user-attachments/assets/51e4baa9-2878-47ab-adb3-c3a34dd1c0ac)
-mengubah envirorment menjadi developer
-![image](https://github.com/user-attachments/assets/2d2e0d5d-d3c6-4412-8cc0-524e584be44b)
-membuat routs baru
-*foto*
-membuat layout web
-*foto*
-=======
-# resep-makanan-insep-dengan-CodeIgniter-4
->>>>>>> eefd7a936343f9ceb6fba8ee12f3e826fd6187fe
+konsep database nya seperti ini :
+ketika pengguna udah melakukan login lalu mengapload sebuah resep maka setiap isian resep akan tersimpan di firebase, nah untuk foto atau video akan tersimpan di dalama storage supabase (disimpan) lalu di kirim lagi dalam bentuk URL dan di simpan di firebase bedasarkan id resep dan username berupa author 
+
+![image](https://github.com/user-attachments/assets/2de6428d-30be-4a7c-acc6-2cac2c42dfbe)
+struktur database
+![image](https://github.com/user-attachments/assets/88fa7730-4e84-49bc-89b1-651308c1b27a)
+melihat lebih detail
+![image](https://github.com/user-attachments/assets/de04f3ab-5438-42ea-ae31-7c8250ad7914)
+![image](https://github.com/user-attachments/assets/e1ff490d-96a7-4976-bb8d-7deb4a32692d)
+
+pada penyimpanan di supbase
+![image](https://github.com/user-attachments/assets/b63996cf-cf88-4ad4-a235-b34c3d5ce762)
+
+
