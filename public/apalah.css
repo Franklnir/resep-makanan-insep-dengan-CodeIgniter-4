@@ -1,0 +1,116 @@
+/* Reset beberapa elemen dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Styling untuk header dan navigasi */
+header {
+    background-color:  #1f5faa;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: #575757;
+}
+
+/* Konten utama */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Styling untuk artikel */
+.entry {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.entry h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.entry p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.entry img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.entry a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.entry a:hover {
+    text-decoration: underline;
+}
+
+/* Styling untuk footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #1f5faa;
+    color: white;
+    margin-top: 40px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header nav ul li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .entry h2 {
+        font-size: 20px;
+    }
+
+    .entry p {
+        font-size: 14px;
+    }
+}
