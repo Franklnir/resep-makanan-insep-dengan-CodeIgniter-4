@@ -1,5 +1,5 @@
 # konsep database nya seperti ini :
-# ketika pengguna udah melakukan login lalu mengapload sebuah resep maka setiap isian resep akan tersimpan di firebase, nah untuk foto atau video akan tersimpan di dalama storage supabase (disimpan) lalu di kirim lagi dalam bentuk URL dan di simpan di firebase bedasarkan id resep dan username berupa author 
+# ketika pengguna udah melakukan login dengan auth email lalu mengapload sebuah resep maka setiap isian resep akan tersimpan di firebase, nah untuk foto atau video akan tersimpan di dalam storage supabase (disimpan) lalu di kirim lagi dalam bentuk URL dan di simpan di firebase bedasarkan id resep dan username berupa author 
 
 ![image](https://github.com/user-attachments/assets/2de6428d-30be-4a7c-acc6-2cac2c42dfbe)
 struktur database
